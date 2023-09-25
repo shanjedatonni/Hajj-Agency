@@ -17,14 +17,37 @@
 <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <section>
-        <div>
-            <p>Hajj & Umrah Booking Agency</p>
-            <h1>WELCOME TO THE<br>BEST HAJJ AGENCY</h1>
-            <button>Get a package quote</button>
+    <section class="bg-[url('hajj.bg.jpg')] bg-center bg-cover bg-fixed">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col items-start h-screen justify-center text-black">
+                <p class="text-3xl uppercase">Hajj & Umrah Booking Agency</p>
+                <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mt-4 mb-7 ">WELCOME TO THE<br class="hidden md:block">BEST HAJJ AGENCY</h1>
+                <button class="bg-purple-500 p-2 duration-400 hover:bg-purple-800 text-2xl rounded">Get a package quote</button>
+            </div>
+    
         </div>
-
     </section>
+    <!--Offer Start-->
+    <section>
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-3 gap-3">
+                <div class="border">
+                    <div class="rounded-xl h-[400px] w-full overflow-hidden">
+                        <img src="offer.bg.jpg" alt="offer">
+                    </div>
+                    <div>
+                        <div class="relative left-[50%] transforbg-purple-500">
+                            <img src="icons8-kaaba.png" alt="icon">
+                        </div>
+                        <h3>Hajj Offers</h3>
+                        <p>Hajjiwah team understands all muslims the importance of the sacred journey & we put all our efforts</p>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+    <!--Offer End-->
     <!--Swiper js cdn-->
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
